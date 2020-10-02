@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#paralax {
+  background: url("https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/17858/atomic-design-sketch-04ce7f7bc9d12b6f63a2197d9cec79d3.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  color: #00fbff;
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#paralax h1 {
+  color: #00fbff;
+  text-shadow: 3px 0 black;
+  letter-spacing: 2px;
 }
+
+#paralax p {
+  font-size: 25px;
+}
+
+.DarkMode {
+  background-color: #181A1B;
+}
+
+#CompBoxArtikel CardSubtitle {
+  font-size: 200px;
+}
+
+#CompBoxArtikel p {
+  font-size: 15px;
+}
+
+#CompBoxArtikel button {
+  font-size: 15px;
+}
+
+#carbon-1 {
+  background-image: url("/img/carbon.png");
+}
+
+footer {
+  background-color: #0F256E;
+  color: #00fbff;
+}
+
+#Comp-List-Html h1 {
+  color: #00fbff;
+  letter-spacing: 5px;
+  font-family: cursive;
+  text-shadow: 3px 0 black;
+}
+
+#Comp-List-Html h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 9px;
+  border-bottom: 2px solid #0F256E;
+}
+
+#Comp-List-Html ul li a {
+  font-size: 15px;
+  color: #00fbff;
+}
+
+#Pengenalan-Html .card {
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  height: 60px;
+  line-height: 30px;
+}
+
+#Pengenalan-Html h2 {
+  color: #00fbff;
+}
+
+#Pengenalan-Html p {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: #838382;
+}
+
+#Pengenalan-Html img {
+  opacity: 0.9;
+  -webkit-filter: grayscale(10%);
+          filter: grayscale(10%);
+  display: block;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#Pengenalan-Html h3 {
+  color: #4dff00;
+  letter-spacing: 2px;
+  line-height: 100px;
+  font-style: italic;
+}
+/*# sourceMappingURL=index.css.map */
